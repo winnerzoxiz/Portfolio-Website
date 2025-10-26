@@ -518,6 +518,10 @@ footer {
     .social_icons {
         justify-content: center;
     }
+
+    .competition-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 768px) {
@@ -580,6 +584,10 @@ footer {
     .footer-menu {
         gap: 1rem;
     }
+
+    .competition-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 480px) {
@@ -598,5 +606,9 @@ footer {
 
     .top-header h1 {
         font-size: 1.8rem;
+    }
+
+    .competition-container {
+        grid-template-columns: 1fr;
     }
 }
